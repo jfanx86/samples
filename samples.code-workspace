@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/bazel-*": true,
+			"MODULE.bazel.lock": true,
+		},
+		"C_Cpp.clang_format_fallbackStyle": "Google",
+	}
+}
