@@ -9,6 +9,13 @@
 			"**/bazel-*": true,
 			"MODULE.bazel.lock": true,
 		},
+		"C_Cpp.default.compilerPath": "/usr/bin/clang++",
 		"C_Cpp.clang_format_fallbackStyle": "Google",
+		"C_Cpp.clang_format_style": "Google",
+		"C_Cpp.default.cppStandard": "c++17",
+		"C_Cpp.default.cStandard": "c17",
+		"C_Cpp.default.compilerArgs": [
+			"-stdlib=libc++"
+		],
 	}
 }
